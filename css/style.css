@@ -1,0 +1,39 @@
+#particles-js
+{
+height: 100vh;
+width:100%;
+background: #f00;
+display: flex;
+justify-content: center;
+align-items:center;
+color:white;
+}
+.particles-js-canvas-el{
+	position:absolute;
+}
+
+
+.splash {
+height:100%;
+left:50%;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
